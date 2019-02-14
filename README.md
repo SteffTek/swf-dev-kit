@@ -19,3 +19,6 @@ Our Serversoftware is fully customizable and Supports SSL and Forcing SSL Traffi
 
 # WebBuilder
 The WebBuilder is our way to help every Minecraft-Server to get an awesome website, without knowing anything about HTML, JS or anything else!
+
+# Bug-Report
+Please use this Repo to submit Bugs for both, the framework it self and the dev-kit!
