@@ -1,0 +1,32 @@
+#The IP-Address the webserver will listen too.
+#Leave blank for listening to all addresses.
+IP-ADDRESS: 
+
+#The webservers port it will listen too.
+PORT: 80
+
+#The webservers SSL-Port for secure connections.
+SSL-PORT: 443
+
+#Should the server use SSL for secure connections?
+Use-SSL: false
+
+#Forces HTTP connections to be HTTPS
+Force-SSL: false
+
+#The FULL Path to the SSL-Cert-File
+SSL-CERT: 
+
+#The FULL Path to the SSL-Key-File
+SSL-KEY: 
+
+#Turns on the local Logger
+Logger: true
+
+#The 404-Errorpage. You can also use WebBuilder links here!
+404-SITE: /404.html
+
+#The default stylesheet the WebBuilder uses for the templates.
+#Path: /SpigotWebFramework/WebBuilder/Styles
+Stylesheet: style.css
+

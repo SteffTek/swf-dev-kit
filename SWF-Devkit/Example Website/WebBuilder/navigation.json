@@ -1,0 +1,27 @@
+[
+	{
+		"name":"Home",
+		"url":"/"
+
+	},
+	{
+		"name":"Server",
+		"url":"/"
+
+	},
+	{
+		"name":"Gamemodes",
+		"url":"DROPDOWN",
+		"dropdown":[
+			{
+				"name":"Survival",
+				"url":"/"
+			},
+			{
+				"name":"Creative",
+				"url":"/"
+			}
+
+		]
+	}
+]

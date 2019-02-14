@@ -1,0 +1,14 @@
+{
+	"name":"Start | SWF",
+	"url":"/index",
+	"alias":"/",
+	"template":"SIDEBAR",
+	"params":[
+		"[HEADER]THE BEST MINECRAFT CAN BE",
+		"[TEXT]Welcome to the&nbsp;<b>SpigotWebFramework</b>",
+		"[IMG]mc.png",
+		"[TEXT]More Information about our framework will follow!",
+		"[HEADER:SIDEBAR]PLAYERLIST",
+		"[HTML]<h3>You can insert normal HTML-Tags as well!</h3>"
+	]
+}
