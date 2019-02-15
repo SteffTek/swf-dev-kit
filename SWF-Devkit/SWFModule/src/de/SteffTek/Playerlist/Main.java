@@ -6,7 +6,7 @@ import java.util.Map;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
-import de.SteffTek.SWF.Module.Modules.Module;
+import de.SteffTek.SWF.API.Module;
 
 /*
 Copyright 2019 SteffTek
