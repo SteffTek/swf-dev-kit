@@ -1,0 +1,25 @@
+##WebBuilder Explained
+
+##Init
+{
+    ##Set the Window Title
+	"name":"Start | SWF",
+
+    ##The URL of the Website with Alias
+	"url":"/index",
+	"alias":"/",
+
+    ##The internal/external Template Name
+	"template":"SIDEBAR",
+
+    ##The Website components
+	"params":[
+		"[HEADER]TitleText",
+		"[TEXT]Simple Text",
+		"[IMG]URL To Image",
+        "[VIDEO]URL To Video",
+		"[HEADER:SIDEBAR]", ##Header is Placed on the [SIDEBAR] Tag on the Template
+        "[MODULE:LIVE]MODULENAME", ##Module is Live Updated (every Second, needs JQuery enabled)
+		"[HTML]<h3>You can insert normal HTML-Tags as well!</h3>"
+	]
+}
