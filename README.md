@@ -20,5 +20,8 @@ Our Serversoftware is fully customizable and Supports SSL and Forcing SSL Traffi
 # WebBuilder
 The WebBuilder is our way to help every Minecraft-Server to get an awesome website, without knowing anything about HTML, JS or anything else!
 
+# Templates
+You have to create a folder (WebBuilder/Templates/FOLDER). Inside you place your template.json and your linked HTML File. The name you set up in the JSON is the name you place inside your WebBuilder. (From Issue https://github.com/SteffTek/swf-dev-kit/issues/1)
+
 # Bug-Report
 Please use this Repo to submit Bugs for both, the framework it self and the dev-kit!
