@@ -1,5 +1,5 @@
-# swf-dev-kit
-The official Developmentkit for the Spigot Web Framework
+# Spigot Web Framework
+The official Git for the Spigot Web Framework
 
 To date we Support any Minecraft Server like Bukkit, Spigot and Bungee.
 
