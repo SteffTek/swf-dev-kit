@@ -68,7 +68,7 @@ SSL-KEY: /
 Logger: true
 
 #The default Page that shows when a user connects to the webserver. Can link to .html files.
-Default-Page: index.html
+Default-Page: /
 
 #The 404-Errorpage. You can also use WebBuilder links here!
 404-SITE: 404.html
@@ -187,6 +187,56 @@ Templates are built around Layouts and Styles. Feel free to have a look at the E
 [FOOTER]
 -->
 ```
+
+## Template Example - Sidebar
+Below you find the official Sidebar Template as it's delivered via SWF.
+
+To add Custom Tags, simple put the Tag-Name inside square brackets (e.g. [NAME]). Inside your WebBuilder File you can than use that custom tag instead of MAIN or SIDEBAR.
+```html
+<html>
+    <head>
+        <!--Template by SteffTek-->
+
+        <!--Style-->
+        <link rel="stylesheet" href="template_style">
+
+        <!--Meta-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!--Misc-->
+        <title>[TITLE]</title>
+        <link rel="icon" href="assets/favicon.png">
+
+        <!--JS-->
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="navigation">
+            [NAVIGATION]
+        </div>
+        <div class="spacer">
+            <img src="assets/header.png" alt="">
+        </div>
+        <div class="holder">
+            <div class="mainview">
+                [MAINWINDOW]
+            </div>
+            <div class="sideview">
+                [SIDEWINDOW]
+            </div>
+        </div>
+        <div class="footer">
+            [FOOTER]
+        </div>
+    </body>
+</html>
+```
+
 # Modules
 Modules are a way to generate more Complex HTML structures inside your webserver, like an live PlayerList.
 To simply use Modules, pack the Module Jar inside the Modules folder.

@@ -23,6 +23,9 @@ SSL-KEY:
 #Turns on the local Logger
 Logger: true
 
+#The default Page that shows when a user connects to the webserver. Can link to .html files.
+Default-Page: /
+
 #The 404-Errorpage. You can also use WebBuilder links here!
 404-SITE: /404.html
 
