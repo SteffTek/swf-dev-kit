@@ -117,6 +117,8 @@ in both files, so the SWF WebBuilder can interpret the JSON Files.
 		]
 	}
 ]
+```
+
 **Example footer.json File**
 ```json
 [
